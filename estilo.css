@@ -1,0 +1,75 @@
+.eye{
+    position: relative; left: 0; top: 0;
+    position:absolute;
+    height:200px;
+    width:200px;
+    top: 40px;
+    left : 40px;
+    z-index: 1;
+}
+
+.programing{
+    position: absolute;
+    right:200px; /* largo de la img*/
+    left: 200px;
+    bottom:100px;
+    top:100px;
+    z-index: -1;
+}
+
+.imgRedonda{
+    top: 200px;
+    width:200px;
+    height:200px;
+    border-radius:150px;
+    border:5px solid rgb(0, 0, 0);
+    z-index: 1;
+}
+h1{
+    
+    font: bold 300% monospace;
+    color: #000000 ;
+    position: absolute;
+    right:400px; /* largo de la img*/
+    left: 400px;
+    bottom:100px;
+    top:250px;
+    z-index: 1;
+}
+
+p{
+    position: absolute;
+    text-align: center;
+    right:400px; /* largo de la img*/
+    left: 400px;
+    bottom:100px;
+    top:300px;
+    z-index: 1;
+}
+
+.boton {
+    position: absolute;
+    border: 1px solid #e97598; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #e97598; /*color botón*/
+    color: #c26969; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'monospace', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+    top: 600px;
+    right: 600px;
+    z-index: 1;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+
+ 
